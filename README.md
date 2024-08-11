@@ -21,7 +21,7 @@
                --train_img_dir data/BraTS/train \
                --val_img_dir data/BraTS/val
 ```
- 5. To sample I-GAN, run the following command：<br>
+ 5. To test I-GAN, run the following command：<br>
 ```bash
  #BraTS2018
  python main.py --mode sample --num_domains 2 --resume_iter 0 --w_hpf 0 \
