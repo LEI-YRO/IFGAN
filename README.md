@@ -11,13 +11,13 @@
  
 # Demo
 
- 1. Download pre-trained models from [BaiduNetdisk](https://pan.baidu.com/s/1N_k_ei-x9REeVHBb6vnNvw?). password: zfxa.<br>
+ 1. Download pre-trained models from [BaiduNetdisk]([https://pan.baidu.com/s/1vfnaVFZaK_fKg8qeYTyBVQ?]). password: pz07.<br>
  2. Copy the pre-training files to the expr/checkpoints/BraTS.
  3. To train I-GAN, run the following command：<br>
 ```bash
   #BraTS2018
    python main.py --mode train --num_domains 2 --w_hpf 0 \
-               --lambda_reg 1 --lambda_rec 0.01 --lambda_l1 100 \
+               --lambda_reg 1 --lambda_rec 1 --lambda_l1 100 \
                --train_img_dir data/BraTS/train \
                --val_img_dir data/BraTS/val
 ```
