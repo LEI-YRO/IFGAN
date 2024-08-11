@@ -11,7 +11,7 @@
  
 # Demo
 
- 1. Download pre-trained models from [BaiduNetdisk]([https://pan.baidu.com/s/1vfnaVFZaK_fKg8qeYTyBVQ?]). password: pz07.<br>
+ 1. Download pre-trained models from [BaiduNetdisk](https://pan.baidu.com/s/1vfnaVFZaK_fKg8qeYTyBVQ?). password: pz07.<br>
  2. Copy the pre-training files to the expr/checkpoints/BraTS.
  3. To train I-GAN, run the following command：<br>
 ```bash
